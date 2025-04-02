@@ -6,6 +6,7 @@ import Blogs from "./components/Blogs";
 import Pagination from "./components/Pagination";
 import { Route, Routes, useSearchParams } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+
 import Home from "./Pages/Home";
 import BlogPage from "./Pages/BlogPage";
 import TagPage from "./Pages/TagPage";

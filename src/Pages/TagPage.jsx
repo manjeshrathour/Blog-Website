@@ -13,11 +13,13 @@ const TagPage = () => {
   return (
     <div>
         <Header/>
+        <div className='mt-[100px]'>
+        
         <div>
             <button 
             onClick={() => navigation(-1)}
             >
-                back
+                Back
             </button>
             <h2>
                 Blogs Tagged <span>#{tag}</span>
@@ -25,6 +27,8 @@ const TagPage = () => {
         </div>
         <Blogs/>
         <Pagination/>
+    </div>
+    
       
     </div>
   )

@@ -13,7 +13,7 @@ const CategoryPage = () => {
   return (
     <div>
       <Header/>
-      <div>
+      <div className='mt-[100px]'>
         <button
         onClick={() => navigation(-1)}
         >
